@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  tomcat-db-api:
+    image: assig4-full-backend
+    ports:
+       - "8081:8081"
